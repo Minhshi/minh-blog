@@ -1,5 +1,5 @@
 {
   "version": 2,
   "builds": [{ "src": "package.json", "use": "@now/next" }],
-   "routes": [{ "src" : "/p/(.*)", "dest": "/post?title=$1" }]
+  "routes": [{ "src" : "/posts/(.*)", "dest": "/post?title=$1" }]
 }
